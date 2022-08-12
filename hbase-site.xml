@@ -19,5 +19,15 @@
     <name>hbase.regionserver.info.bindAddress</name>
     <value>hbase-docker</value>
   </property>
+  <property>
+<name>hbase.regionserver.thrift.framed</name>
+<value>true</value>
+
+</property>
+<property>
+<name>hbase.regionserver.thrift.compact</name>
+<value>true</value>
+
+</property>
 
 </configuration>
